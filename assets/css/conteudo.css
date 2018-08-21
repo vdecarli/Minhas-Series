@@ -1,0 +1,52 @@
+.titulo-serie{
+    font-size: 27px;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-family: 'Slabo 27px', serif;
+}
+.genero-serie{
+    font-size: 16px;
+    color: #a9a4a4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.capa-serie{
+    border-radius: 5px;
+    display: flex;
+    margin: 7px auto;
+    
+}
+.btn-leiamais{
+    background-color: #c0392b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    border: 10px;
+    margin: 0 auto;
+    width: 85%;
+    
+    
+}
+.series-conteiner{
+            display: flex;
+            flex-direction: row;/* column*/
+            justify-content: flex-start; /*center , space-beween*/
+            flex-wrap: wrap;
+
+}
+    .box-series{
+        box-sizing: border-box;
+        /*background-color: rgb(15, 7, 7);*/
+        width: 300px;
+        padding: 10px;
+    }
+
+
+.series >div {width: 200px height:80px;}       
+        
+
+
